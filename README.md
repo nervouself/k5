@@ -1,4 +1,4 @@
-# k5
-超精简h5框架
+# k5-Fullpageslide
+超精简全屏翻页h5框架 Fullpageslide
 
->[example](//nervouself.github.io/k5/)
+>[example](//nervouself.github.io/k5-fullpageslide/)
