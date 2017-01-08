@@ -1,0 +1,40 @@
+/* common */
+*{margin:0;padding:0;}
+ul,ol{list-style:none;}
+a{text-decoration:none;}
+img{vertical-align: top;}
+body{font-family:"microsoft yahei";color:#333;}
+
+/* init */
+html, body {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+.content-wrap {
+    -webkit-transition:.5s cubic-bezier(0.7, 0, 0.3, 1);
+    transition: .5s cubic-bezier(0.7, 0, 0.3, 1);
+    -webkit-transform: translate3d(0,0,0);
+            transform: translate3d(0,0,0);
+}
+.part{
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+/* content */
+.part1 {
+    background-image: url('../img/0.jpg');
+}
+.part2 {
+    background-image: url('../img/1.jpg');
+}
+.part3 {
+    background-image: url('../img/10.jpg');
+}
+.part4 {
+    background-image: url('../img/12.jpg');
+}
+.part5 {
+    background-image: url('../img/6.jpg');
+}
