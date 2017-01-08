@@ -1,5 +1,6 @@
 // init
-    var H = window.screen.availHeight,
+    var C = document.body || document.documentElement,
+        H = C.clientHeight,
         parts = document.querySelectorAll('.part'),
         pgNum = parts.length,
         wrap = document.querySelector('.content-wrap');
